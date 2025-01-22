@@ -1,2 +1,2 @@
 # Site-Android
-Este é meu segundo projeto em HTML e cs
+Este é meu segundo projeto em HTML e css
