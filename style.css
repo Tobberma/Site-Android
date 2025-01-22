@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'audiowide';
+    src: url('font/audiowide.ttf') format('truetype');
+}
+
+
+body {
+  font-family: Sans-Serif;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+header {
+background: linear-gradient(to top, #215929, #84d98e);
+margin-right: 0px;
+margin-left: 0px;
+}
+
+main {
+  background-color: white;
+  margin-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 25px;
+}
+
+nav {
+  background-color: #173e1cff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font-family: 'audiowide', Sans-Serif;
+}
+
+.extern {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+a:hover {
+  color: #black;
+  animation: highlight 1s ease;
+}
+
+@keyframes highlight {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #84d98e; /* Cor de fundo verde claro */
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+
+a {
+  text-decoration: none;
+  color: #215929;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: inherit;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+a.link::after {
+content: "🔗";
+}
+
+.link {
+  background-color: #84d98e;
+}
+
+.principal {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.bol {
+  color: #215929;
+}
+
+section {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  background-color: #a3dcabd3;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.cor {
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+.desc {
+  color: white;
+  text-align: center;
+  text-indent: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0px;
+}
+
+h1 {
+  color: green;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'audiowide';
+}
+
+h2 {
+  color: green;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'audiowide';
+  border-radius: 5px;
+  background: linear-gradient(to right, #84d98e, #84d98ea6, #84d98e76, #84d98e39, #84d98e14);
+}
+
+
+aside {
+  background-color: lightgrey !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #414141;
+  color: white;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px !important;!important
+  margin-right: 0px !important;!important
+  padding: 0px;
+  position: relative;
+  bottom: 0;
+}
+
+.spa {
+  margin-bottom: 0px;
+  font-weight: bold;
+  height: 25px;
+  width: 25px;
+}
+
+.he {
+  background-color: #215929;
+  color: white;
+  font-weight: bold;
+  font-family: 'roboto', Sans-Serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#algo {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  opacity: 80%;
+}
+
+#vd {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-family: 'roboto', Sans-Serif;
+}
+
+#list-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 45%;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+ul li::before {
+  content: '✔️';
+  margin-right: 10px;
+}
+
+#first {
+  order: 1;
+}
+
+#second {
+  order: 2;
+}
